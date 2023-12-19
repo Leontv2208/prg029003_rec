@@ -10,8 +10,8 @@ int main() {
     exit(EXIT_FAILURE);
   }
 
-  int n_samples = 100;
-  int n_tests_not_exist = 100;
+  int n_samples = 1000;
+  int n_tests_not_exist = 500;
   unsigned int cpfs[n_samples];
   for (int i = 0; i < n_samples; i++) {
     pessoa_t *p = malloc(sizeof(pessoa_t));
